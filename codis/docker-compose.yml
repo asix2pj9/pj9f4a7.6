@@ -3,7 +3,7 @@ services:
     image: xxxxxxx # Imatge a construir per crear el contenidor
     build: . 
     container_name: xxxxxxx # Contenidor amb l'aplicació que dóna el servei
-    expose:
+    ports:
       - "xx:xx"
     environment:
       - HOST_NAME=docker-pj9f4a76-xxxxxx # Nom de sistema del contenidor
