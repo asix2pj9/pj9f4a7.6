@@ -11,6 +11,6 @@ services:
      - xPj9f4a7.6 # Nom de la xarxa dins de docker-compose.yml
 
 networks:
-  xPj9f4a86: 
-    name: pj9f4a86 # Nom de la xarxa dins de la màquina host dels dockers
+  xPj9f4a7.6: 
+    name: pj9f4a7.6 # Nom de la xarxa dins de la màquina host dels dockers
     driver: bridge
