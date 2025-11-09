@@ -1,0 +1,16 @@
+services:
+  sLlauna: # Servei donat per l’aplicació
+    image: xxxxxxx # Imatge a construir per crear el contenidor
+    build: . 
+    container_name: xxxxxxx # Contenidor amb l'aplicació que dóna el servei
+    expose:
+      - "xx:xx"
+    environment:
+      - HOST_NAME=docker-pj9f4a76-xxxxxx # Nom de sistema del contenidor
+    networks:
+     - xPj9f4a7.6 # Nom de la xarxa dins de docker-compose.yml
+
+networks:
+  xPj9f4a86: 
+    name: pj9f4a86 # Nom de la xarxa dins de la màquina host dels dockers
+    driver: bridge
